@@ -1,0 +1,24 @@
+Truque da Tabuada do 9
+
+O objetivo deste algoritmo é calcular a multiplicação de 9 por um número inteiro n entre 1 e 9, utilizando um truque matemático. Esse truque afirma que o produto de 9 por n pode ser obtido da seguinte maneira:
+
+Entrada: O algoritmo solicita ao usuário um número inteiro n.
+
+Processamento:
+
+Primeiro, calcula-se dezena = n - 1.
+
+Depois, calcula-se unidade = 10 - n.
+
+Para obter o resultado final, multiplica-se a dezena por 10 e soma-se a unidade, ou seja:
+resultado = (n - 1) * 10 + (10 - n)
+
+Saída: O algoritmo exibe o valor do resultado final ao usuário.
+
+Exemplo:
+Se o usuário digitar 7, então:
+dezena = 7 - 1 = 6
+unidade = 10 - 7 = 3
+resultado = 6 * 10 + 3 = 63
+Portanto, 9 x 7 = 63.
+
